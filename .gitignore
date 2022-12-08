@@ -1,0 +1,8 @@
+my_env/
+mainapp/__pycache__/
+mainapp/migrations/
+djangoproject/__pycache__/
+djangoproject/__init__.py
+djangoproject/asgi.py
+djangoproject/wsgi.py
+mainapp/__init__.py
