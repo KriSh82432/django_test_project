@@ -22,10 +22,10 @@ def show(request, name, age):
 def main(request):
     return HttpResponse('<h1 style="border: 5px solid;display: flex;justify-content: center;">Hello Krishna</h1>')
 
-def menu(request):
+"""def menu(request):
     template = loader.get_template('../templates/index.html')
     context = {}
-    return HttpResponse(template.render(context, request))
+    return HttpResponse(template.render(context, request))"""
 
 def queryview(request):
     name = request.GET['name']
